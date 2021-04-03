@@ -10,4 +10,9 @@ Once the image dimension is reduced, the fifth layer is a fully connected convol
 
 The final seventh layer will be a softmax output layer with ‘n’ possible classes depending upon the number of classes in the dataset.
 
-[LeNet-5 Architecture]()
+[LeNet-5 Architecture](https://github.com/Madhavan11601828/Convolutional-Neural-Network-Basic-Architecture/blob/main/LeNet-5Architectures.PNG)
+
+[Resource](https://www.upgrad.com/blog/basic-cnn-architecture/)
+[Resource](https://medium.com/datadriveninvestor/five-powerful-cnn-architectures-b939c9ddd57b target=”_blank” rel=”nofollow”)
+[Resource](ttps://medium.com/techiepedia/binary-image-classifier-cnn-using-tensorflow-a3f5d6746697 target=”_blank” rel=”nofollow”)
+[Python Programming Model]()
