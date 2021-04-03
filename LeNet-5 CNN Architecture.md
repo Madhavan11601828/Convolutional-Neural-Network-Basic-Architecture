@@ -10,9 +10,15 @@ Once the image dimension is reduced, the fifth layer is a fully connected convol
 
 The final seventh layer will be a softmax output layer with ‘n’ possible classes depending upon the number of classes in the dataset.
 
+In Python Programming, the model type that is most commonly used is the Sequential type. It is the easiest way to build a CNN model in keras. It permits us to build a model layer by layer. The ‘add()’ function is used to add layers to the model. As explained above, for the LeNet-5 architecture, there are two Convolution and Pooling pairs followed by a Flatten layer which is usually used as a connection between Convolution and the Dense layers.
+
+The Dense layers are the ones that are mostly used for the output layers. The activation used is the ‘Softmax’ which gives a probability for each class and they sum up totally to 1. The model will make it’s prediction based on the class with highest probability.
+
+The summary of the model is displayed as below.
+
 [LeNet-5 Architecture](https://github.com/Madhavan11601828/Convolutional-Neural-Network-Basic-Architecture/blob/main/LeNet-5Architectures.PNG)
 
 [Resource](https://www.upgrad.com/blog/basic-cnn-architecture/)
 [Resource](https://medium.com/datadriveninvestor/five-powerful-cnn-architectures-b939c9ddd57b target=”_blank” rel=”nofollow”)
 [Resource](ttps://medium.com/techiepedia/binary-image-classifier-cnn-using-tensorflow-a3f5d6746697 target=”_blank” rel=”nofollow”)
-[Python Programming Model]()
+[Python Programming Model](https://github.com/Madhavan11601828/Convolutional-Neural-Network-Basic-Architecture/blob/main/LeNet-5PythonProgrammingModel.PNG)
