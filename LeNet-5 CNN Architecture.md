@@ -14,7 +14,7 @@ In Python Programming, the model type that is most commonly used is the Sequenti
 
 The Dense layers are the ones that are mostly used for the output layers. The activation used is the ‘Softmax’ which gives a probability for each class and they sum up totally to 1. The model will make it’s prediction based on the class with highest probability.
 
-The summary of the model is displayed as below.
+The summary of the [model](https://github.com/Madhavan11601828/Convolutional-Neural-Network-Basic-Architecture/blob/main/LeNet-5Model.PNG) is displayed as below.
 
 [LeNet-5 Architecture](https://github.com/Madhavan11601828/Convolutional-Neural-Network-Basic-Architecture/blob/main/LeNet-5Architectures.PNG)
 
